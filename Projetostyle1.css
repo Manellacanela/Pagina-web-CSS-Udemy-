@@ -25,6 +25,14 @@ body{
     font-size: 46px;
     text-shadow: 0pc 3px 2px #333;
 }
+
+.hero-content p {
+
+    background-color: rgba(0, 0, 0, 0.288);
+    display: inline-block;
+    padding:10px;
+    border-bottom: 2px solid white;
+}
 .hero nav ul{
     text-align: right;
     margin:20px 50px 0 0;
@@ -51,7 +59,7 @@ body{
 }
 
 .hero nav a:hover{
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0, 0, 0, 0.247);
 
 }
 
@@ -64,8 +72,34 @@ main{
     background-color: white;
     padding: 15px;
     margin-top: 15px;
-    display: flex;
+    overflow: auto;
     
+    
+}
+
+.card{
+    width: 32%;
+    float: left;
+    border: 2px solid rgba(93, 93, 104, 0.26);
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+
+}
+
+.card p{
+    text-align: center;
+    background-color: #6b6c6854;
+    
+    padding: 20px;
+    
+}
+
+.card img{
+    width: 100%;
 }
 .content-header{
     border-bottom: solid 2px #ccc;
@@ -82,7 +116,7 @@ main{
 	color: white;
 	font-size: 14px;
 	text-align: center;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	background: #6b6c68;
     line-height: 80px;
 }
